@@ -1,3 +1,50 @@
-body{
-    background-color: blue;
-}
+body {
+    background: red;
+    background: -webkit-linear-gradient(to right, red, red);
+    background: linear-gradient(to right, red, red);
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .one,
+  .two,
+  .three {
+    margin: 10px 0 0 0;
+  }
+  
+  button {
+    color: black;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: rgb(214, 214, 214);
+    font-size: 15px;
+    margin-left: 5px;
+    outline: none;
+    border-radius: 20%;
+  }
+  button:active {
+    box-shadow: 1px 1px 2px #0c70fd, 1px 1px 2px #00c3ff;
+  }
+  
+  #ad {
+    height: 6em;
+  }
+  
+  #ad span {
+    font-size: 2em;
+    border-bottom: 2px solid #000;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  
+  span {
+    color: rgba(255, 255, 255);
+  }
+  
